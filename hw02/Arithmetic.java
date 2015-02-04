@@ -48,7 +48,7 @@ public class Arithmetic{
         double totTax=(int)Math.round(tottax*100)/(double)100; //Convert to 2 decimal places
         double totPaid=totCost+totTax; //total actually paid, inculding sales tax
         
-        //print output
+        //print statements for output
         System.out.println("Name of Item:       Socks  |  Drinking Glasses  |  Envelopes"); //printing the item being bought
         System.out.println("Quantity:               "+nSocks+"  |                 "+nGlasses+"  |          "+nEnvelopes+""); //printing the quantity of each item
         System.out.println("Cost per item:      $"+sockCost$+"  |             $"+glassCost$+"  |      $"+envelopeCost$+""); //printing cost per item
