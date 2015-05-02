@@ -358,7 +358,7 @@ public class ToHex {
                         break;
                 }
             }else{
-                System.out.println("Integers between 0-255 only.");
+                 System.out.println("Integers between 0-255 only.");
                 return;
             }
         } else {
